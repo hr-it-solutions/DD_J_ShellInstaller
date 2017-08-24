@@ -17,10 +17,12 @@ A shell script to install Joomla directly from the command line.
 ## Configuration
 config.cfg (Set your own web directory path there)
 jinstaller.sql (Setup your querys which should be executed during installtion)
+**NOTE:** Change the default SuperUser login details at jinstaller.sql. The default username is *admin* abd the password ist *adminpwd*
 
 ## To get it running
-Just download and unzip this files to your servers shell script folder e.g. /bin etc..
+Just download and unzip this files to your servers shell script folder e.g. /bin etc..<br>
 Setup the config.cfg.
+Adjust the jinstaller.sql
 
 And run the script
 
